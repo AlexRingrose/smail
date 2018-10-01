@@ -1,0 +1,174 @@
+/* Your app custom files in this file */
+.view-left {
+  border-right: 1px solid #b2b2b2;
+}
+
+/* iPad Vertical */
+@media (min-width: 768px) {
+  .panel.panel-left.panel-cover {
+    width: 320px;
+  }
+}
+/* iPad Horizontal */
+@media (min-width: 1024px) {
+  /* Let's hide panel-opener when left panel is visible */
+  .view-main .navbar .open-panel {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: 'Framework7 Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Framework7Icons-Regular.eot");
+  src: local('Framework7 Icons'),
+     local('Framework7Icons-Regular'),
+     url("../fonts/Framework7Icons-Regular.woff2") format("woff2"),
+     url("../fonts/Framework7Icons-Regular.woff") format("woff"),
+     url("../fonts/Framework7Icons-Regular.ttf") format("truetype");
+}
+
+.f7-icons, .framework7-icons {
+  font-family: 'Framework7 Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+}
+
+/*
+.view-main {
+  width: 800px;
+  margin: 0 auto;
+}
+*/
+
+.transparentbar {
+background-color: rgba(255, 255, 255, .1) /* 0.55 = opacity */
+background: none;
+}
+
+.color-custom { color: #ffffff; background rgba(1,1,1,.50) }
+
+.navbar:after {
+  display:none;
+}
+
+.button {
+margin: auto;
+width: 260px;
+background: rgba(1,1,1,.50);
+}
+
+.buttonc {
+margin: auto;
+width: 25px;
+background: rgba(1,1,1,.50);
+}
+
+.buttoni {
+margin: auto;
+width: 100px;
+background: rgba(1,1,1,.50);
+}
+
+.popupback {
+background: rgba(224,179, 148, 0.9);
+}
+
+.popuptextback {
+margin: auto;
+width: 240px;
+background: rgba(1,1,1,.15);
+border: 1px solid white;
+padding: 5px 10px;
+
+}
+
+.darkback {
+margin: auto;
+width: 260px;
+background: rgba(1,1,1,.15);
+padding: 10px;
+
+}
+
+.content-block-title {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1;
+  color: #FFFFFF;
+  margin: 5px 15px 10px;
+}
+
+.toolbar:before {
+  display:none;
+}
+
+.toolbar {
+color: rgba(255,255,255,1);
+  opacity: .75;
+  background: rgba(1,1,1,.75);
+}
+
+.page-content {
+background: url( '../img/soldiersmail440.png' ) no-repeat;
+background-color: rgba(224, 179, 148, 1);
+background-position: center top;
+}
+
+
+.navbar, .navbar-inner {
+color: rgba(255,255,255,1);
+opacity: .75;
+background: rgba(1,1,1,.75);
+}
+
+.navbarsp {
+background: none;
+opacity: 1;
+}
+
+.navbarphoto {
+opacity: .5;
+}
+
+.content-block-inner, .content-block {
+color: rgba(255,255,255,1);
+background: none;
+}
+
+.list-block, .item-link, .item-content, .item-inner, .item-title {
+color: rgba(255,255,255,1);
+background: none;
+}
+
+.list-block ul {
+background-color: rgba(1,1,1,.01);
+}
+
+.photo-browser-dark .navbar,
+.photo-browser-dark .toolbar {
+
+  color: #fff;
+}

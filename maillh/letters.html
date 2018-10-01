@@ -1,0 +1,27 @@
+
+<div class="navbar transparentbar">
+  <div class="navbar-inner">
+    <div class="left sliding"><a href="#" class="back link color-white"> <i class="icon icon-back color-white"></i><span>Back</span></a></div>
+    <div class="center sliding toggletitle"></div> <!-- title appears here -->
+    <div class="right"></div>
+  </div>
+</div>
+
+<div class="pages">
+  <div data-page="letters" class="page">
+    <div class="page-content">
+      <div class="content-block-title testtitle">Hartnett Letters</div>
+      <div class="list-block">
+        <ul>{{#each this}}
+          <li data-id="{{@index}}">
+			  <a href="#" class="item-content showimages" data-id="{{@index}}" data-context-name="letters.{{@index}}">
+              <div class="item-inner">
+                <div class="item-title">{{title}}</div>
+              </div>
+            </a>
+          </li>{{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
